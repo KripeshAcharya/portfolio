@@ -256,7 +256,8 @@ img {
   text-align: center;
 }
 .skills__container.bd-grid {
-    display: block;
+    display: block !important;
+	width: 100%;
 }
 .skills__subtitle {
   margin-bottom: var(--mb-2);
