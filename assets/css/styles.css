@@ -236,18 +236,21 @@ img {
 
 /* ===== ABOUT =====*/
 .about__container {
-  row-gap: 2rem;
-  text-align: center;
+    display: flex;             
+    justify-content: center;   
+    align-items: center;        
+    text-align: center;        
+    padding: 20px;              
+    height: 100%;               
 }
-.about__subtitle {
-  margin-bottom: var(--mb-2);
-}
-.about__img {
-  justify-self: center;
-}
-.about__img img {
-  width: 200px;
-  border-radius: 0.5rem;
+
+.about__text {
+    max-width: 1024px;          
+    line-height: 1.6;           
+    font-size: 1rem;            
+    color: #333;                
+    margin: 0 auto;   
+    text-align: justify;         
 }
 
 /* ===== SKILLS =====*/
