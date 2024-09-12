@@ -308,7 +308,7 @@ img {
 
 .Projects h4 a {
     color: #383535;
-    text-decoration: none;
+    text-decoration: underline;
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
