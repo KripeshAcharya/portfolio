@@ -377,7 +377,7 @@ color: var(--first-color);
 }
 
 .project-title a {
-    color: #d93416;
+    color: black;
     text-decoration: underline;
 }
 
