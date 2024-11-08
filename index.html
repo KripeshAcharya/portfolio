@@ -1,156 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <!-- ===== BOX ICONS ===== -->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <title>Portfolio - Kripesh Acharya</title>
-</head>
-<body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">Kripesh Acharya</a>
-            </div>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Projects & Certifications</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Education & Experience</a></li>
-                    <li class="nav__item"><a href="https://github.com/KripeshAcharya/Resume/blob/main/Resume.pdf" target="_blank" class="nav__link">Resume</a></li>
-                </ul>
-            </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <main class="l-main">
-        <!--===== HOME =====-->
-        <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">Hi, I'm <span class="home__title-color">Kripesh</span></h1>
-                <h2>Aspiring Cybersecurity Professional & Continuous Learner</h2>
-                <a href="#" class="button">Let's Keep In Touch</a>
-            </div>
-            <div class="home__social">
-                <a href="https://www.linkedin.com/in/kripeshacharya/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/KripeshAcharya/Projects-Certifications" target="_blank" class="home__social-icon"><i class='bx bxl-github'></i></a>
-                <a href="https://www.youtube.com/@kripeshtravels4654" target="_blank" class="home__social-icon"><i class='bx bxl-youtube'></i></a>
-            </div>
-        </section>
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!--===== ABOUT =====-->
-        <section class="about section" id="about">
-            <h2 class="section-title">About</h2>
-            <div class="about__container bd-grid">
-                <p class="about__text">Driven by a passion for cybersecurity, I am currently pursuing an M.S. in Cybersecurity at Mercy University with a 4.0 GPA. I hold a B.S. in Computing (First Class Honors) and certifications in ISC2 Cybersecurity, NIST RMF, Security Blue Team, Cisco, and ICSI CNSS. My expertise includes securing digital infrastructures, vulnerability management, risk assessment, and threat analysis. 
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-                I have worked on impactful projects like "Compounding Threat Trends on National Critical Infrastructure" with Sandia National Laboratories, Snort configuration, Red Team reports, and vulnerability management. With three years of experience as a Network Security Analyst, I am committed to staying ahead in the ever-evolving cybersecurity landscape.</p>
-            </div>
-        </section>
-
-        <!--===== SKILLS =====-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills__container bd-grid">
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
                 <div>
-                    <h3 class="skills__subtitle">Professional Skills</h3>
-                    <div class="skills__wrapper">
-                        <div class="skills__data"><span class="skills__name">SQL</span></div>
-                        <div class="skills__data"><span class="skills__name">Python</span></div>
-                        <div class="skills__data"><span class="skills__name">C/C++ Programming</span></div>
-                        <div class="skills__data"><span class="skills__name">Linux</span></div>
-                        <div class="skills__data"><span class="skills__name">Cloud Computing</span></div>
-                        <div class="skills__data"><span class="skills__name">SIEM Tools</span></div>
-                        <div class="skills__data"><span class="skills__name">Splunk</span></div>
-                        <div class="skills__data"><span class="skills__name">IAM</span></div>
-                        <div class="skills__data"><span class="skills__name">PowerShell</span></div>
-                        <div class="skills__data"><span class="skills__name">Search Processing Language</span></div>
-                        <div class="skills__data"><span class="skills__name">Microsoft Tools</span></div>
-                        <div class="skills__data"><span class="skills__name">GitHub</span></div>
-                        <div class="skills__data"><span class="skills__name">Slack</span></div>
-                        <div class="skills__data"><span class="skills__name">Communication</span></div>
-                        <div class="skills__data"><span class="skills__name">Teamwork</span></div>
-                        <div class="skills__data"><span class="skills__name">Leadership</span></div>
-                        <div class="skills__data"><span class="skills__name">Time Management</span></div>
-                        <div class="skills__data"><span class="skills__name">Attention to Detail</span></div>
-                        <div class="skills__data"><span class="skills__name">Risk Management</span></div>
-                        <div class="skills__data"><span class="skills__name">Threat Analysis</span></div>
-                        <div class="skills__data"><span class="skills__name">Open-Source Intelligence</span></div>
-                        <div class="skills__data"><span class="skills__name">Network Analysis</span></div>
-                        <div class="skills__data"><span class="skills__name">Vulnerability Assessment</span></div>
-                        <div class="skills__data"><span class="skills__name">Logs and Alerts Monitoring</span></div>
-                    </div>
+                    <a href="#" class="nav__logo">Kripesh Acharya</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects & Certifications</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Education & Experience</a></li>
+                        <li class="nav__item"><a href="https://github.com/KripeshAcharya/Resume/blob/main/Resume.pdf" target="_blank" class="nav__link">Resume</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Kripesh</span></h1> <h2>Aspiring Cybersecurity Professional <br> & Continuous Learner</h2> </br>
+
+                    <a href="#" class="button">Let's Keep In Touch</a>
+                </div>
+
+                <div class="home__social">
+                   <a href="https://www.linkedin.com/in/kripeshacharya/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/KripeshAcharya/Projects-Certifications" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.youtube.com/@kripeshtravels4654" target="_blank"  class="home__social-icon"><i class='bx bxl-youtube' ></i></a>
+                </div>
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/about.jpg"/>
+                        </g>
+                    </svg>
+                </div>
+               
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    
+                        <p class="about__text">Driven by a passion for tackling emerging threats and advancing cybersecurity, I am pursuing an M.S. in Cybersecurity at Mercy University, set to graduate in December 2024 with a 4.0 GPA. With a B.S. in Computing (First Class Honors) and certifications in ISC2 Cybersecurity, NIST RMF, Security Blue Team, Cisco, and ICSI CNSS, I stay ahead of the ever-evolving cybersecurity landscape.<br></br>
+
+<p>I’ve led impactful projects like "Compounding Threat Trends on National Critical Infrastructure" with Sandia National Laboratories, Snort configuration, Red Team reports, vulnerability management, and cybersecurity awareness training. With three years of experience as a Network Security Analyst, I bring a hands-on approach to securing digital infrastructures and tackling complex security challenges. </p>
+                        
+                                       
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills__container bd-grid">          
+        <div>
+            <h2 class="skills__subtitle">Professional Skills</h2>
+            <div class="skills__wrapper">
+                <div class="skills__data">
+                    <span class="skills__name">SQL</span>
+                </div>
+                 <div class="skills__data">
+                    <span class="skills__name">Python</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">C/C++ Programming</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Linux</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Cloud Computing</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">SIEM Tools</span>
+                </div>
+                 <div class="skills__data">
+                    <span class="skills__name">Splunk</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">IAM</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">PowerShell</span>
+                </div>
+                 <div class="skills__data">
+                    <span class="skills__name"> Search Processing Language</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Microsoft Tools</span>
+                </div>
+                 <div class="skills__data">
+                    <span class="skills__name">GitHub</span>
+                </div>
+                 <div class="skills__data">
+                    <span class="skills__name">Slack</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Communications</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Team Work</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Leadership</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Time Management</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Attention to Details</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Risk Management</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Threat Analysis</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Open-Source Intelligence</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Network Analysis</span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Vulnerability Assessment</span>
+                </div>
+                 <div class="skills__data">
+                    <span class="skills__name">Logs and Alerts Monitoring</span>
                 </div>
             </div>
-        </section>
-
-        <!--===== EDUCATION AND EXPERIENCE =====-->
-        <section class="contact-section" id="contact">
-            <h2 class="section-title">Education & Experience</h2>
-            <div class="contact__container bd-grid">
-                <div class="lists_edu">
-                    <!-- Education -->
-                    <div class="list-1">
-                        <h3>Mercy University, Dobbs Ferry, NY</h3>
-                        <h5>Expected December 2024</h5>
-                        <h4 style="font-weight: bold; font-style: italic;">Master of Science in Cybersecurity</h4>
-                        <h4>GPA: 4.0</h4>
-                        <h5>Relevant Courses:</h5>
-                        <div class="pills-container">
-                            <span class="pill">Intermediate Programming C, C++</span>
-                            <span class="pill">Networking & Data Communication</span>
-                            <span class="pill">Distributed Database/Security</span>
-                            <span class="pill">Info Assurance & Management</span>
-                            <span class="pill">Internet Media & Security</span>
-                            <span class="pill">Firewall & Intrusion Detection</span>
-                            <span class="pill">Topics in Info Security</span>
-                            <span class="pill">Forensic Computing</span>
-                            <span class="pill">Applied Cryptography</span>
-                            <span class="pill">Wireless Network & Security</span>
-                        </div>
-                    </div>
-
-                    <!-- Undergraduate -->
-                    <div class="list-2">
-                        <h3>Leeds Beckett University</h3>
-                        <h4 style="font-weight: bold; font-style: italic;">Bachelor of Science in Computing</h4>
-                        <h4>First Class Honors</h4>
-                        <h5>Relevant Courses:</h5>
-                        <div class="pills-container">
-                            <span class="pill">Intelligent Systems</span>
-                            <span class="pill">Digital Security</span>
-                            <span class="pill">Advanced Database Systems</span>
-                            <span class="pill">Advanced Web Engineering</span>
-                        </div>
-                    </div>
-
-                    <!-- Associate Degree -->
-                    <div class="list-3">
-                        <h3>International School of Management and Technology, Kathmandu, Nepal</h3>
-                        <h4 style="font-weight: bold; font-style: italic;">Associate Degree in Computer Science</h4>
-                        <h5>Advanced Level: Nepal</h5>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!--===== FOOTER =====-->
-    <footer class="footer">
-        <div class="footer__container bd-grid">
-            <p class="footer__copy">© 2024 Kripesh Acharya. All Rights Reserved.</p>
         </div>
-    </footer>
+    </div>
+</section>
+ <!--===== Education and Work Experience =====-->
+<section class="contact-section" id="contact">
+     <h2 class="section-title">Education</h2>
 
-    <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
-</body>
+<div class="contact__container bd-grid">
+    <div class="lists_edu">
+        <div class="list-1">
+            <h3>Mercy University, Dobbs Ferry, NY</h3>
+            <h5>Expected December 2024</h5>
+            <h4 style="font-weight: bold; font-style: italic;">Master of Science in Cybersecurity</h4>
+            <h4>GPA: &nbsp;&nbsp;4.0</h4>
+            <h5>Relevant Courses:</h5>
+            <div class="pills-container">
+                <span class="pill">Intermediate Programming C, C++</span>
+                <span class="pill">Networking & Data Communication</span>
+                <span class="pill">Distributed Database/Security</span>
+                <span class="pill">Info Assurance & Management</span>
+                <span class="pill">Internet Media & Security</span>
+                <span class="pill">Firewall & Intrusion Detection</span>
+                <span class="pill">Topics in Info Security</span>
+                <span class="pill">Forensic Computing</span>
+                <span class="pill">Applied Cryptography</span>
+                <span class="pill">Wireless Network & Security</span>
+            </div>
+        </div>
+
+        <div class="list-2">
+            <h3>Leeds Beckett University</h3>
+            <h4 style="font-weight: bold; font-style: italic;">Bachelor of Science in Computing</h4>
+            <h4>GRADE: &nbsp;&nbsp;First Class Honors</h4>
+            <h5>Relevant Courses:</h5>
+            <div class="pills-container">
+                <span class="pill">Intelligent Systems</span>
+                <span class="pill">Digital Security</span>
+                <span class="pill">Advanced Database System</span>
+                <span class="pill">Advanced Web Engineering</span>
+            </div>
+        </div>
+
+        <div class="list-3">
+            <h3>International School of Management and Technology, Kathmandu, Nepal</h3>
+            <h4 style="font-weight: bold; font-style: italic;">Associate of Science in Computing</h4>
+            <h5>Relevant Courses:</h5>
+            <div class="pills-container">
+                <span class="pill">Java</span>
+                <span class="pill">Networking</span>
+                <span class="pill">Database Design</span>
+                <span class="pill">Cloud Computing</span>
+                <span class="pill">Network Security</span>
+                <span class="pill">Software Development Life Cycle</span>
+                <span class="pill">Web Development</span>
+                <span class="pill">Client/Server Computing</span>
+                <span class="pill">Network Management</span>
+            </div>
+        </div>
+
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="list-4">
+            <h3>Vianet Communications, Jawalakhel, Lalitpur Nepal</h3>
+            <h5>January 2020 - December 2022</h5>
+            <h4 style="font-weight: bold; font-style: italic;">Network Security Analyst</h4>
+            <h5>
+                • Monitored network traffic and security alerts for real-time threat detection and response.<br>
+                • Configured and maintained security devices such as firewalls, intrusion detection/prevention systems, VPNs, and
+                endpoint protection solutions to protect the organization’s network.<br>
+                • Provided training and support to staff on best practices and protocols, fostering a culture of security awareness
+                throughout the organization.
+            </h5>
+        </div>
+
+        <div class="list-5">
+            <h3>Visva Technikos, Shankhamul, Kathmandu Nepal</h3>
+            <h5>March 2019 - November 2019</h5>
+            <h4 style="font-weight: bold; font-style: italic;">System Administrator  </h4>
+            <h5>
+            
+                •	Assisted in configuring Windows Server 2012 R2 with Active Directory, FTP, VPN, and other network services.<br></br>
+                •	Troubleshot system and network issues and Monitored system performance.<br>
+
+            </h5>
+        </div>
+    </div>
+</div>
+
+
+
+
+                </div>
+            </section>
+        </main>
+
+            <!--===== WORK =====-->
+<section class="work section" id="work">
+    <h2 class="section-title">Projects & Certifications</h2>
+    <div class="Projects bd-grid">
+
+        <h4>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Projects" target="_blank">
+                ➣ Investigating Compounding Threat Trends on National Critical Infrastructure
+            </a>
+            <span class="project-details">Sandia National Laboratories | August 2024 – December 2024</span>
+            <ul class="project-description">
+                <li>Analyzed compounded threats to national critical infrastructure across sectors.</li>
+                <li>Developed and validated a comprehensive Threat Assessment Framework addressing Digital, Physical, and Human threat factors.</li>
+            </ul>
+        </h4>
+
+        <h4>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/blob/main/Projects/Home%20Lab%20Setup%20%26%20SIEM%20Implementation%20Using%20Splunk%20.pdf" target="_blank">
+                ➣ Home Lab Setup & SIEM Implementation using Splunk
+            </a>
+            <span class="project-details">September 2024</span>
+            <ul class="project-description">
+                <li>Built and configured a home lab environment to implement Splunk for SIEM.</li>
+                <li>Integrated, monitored, and analyzed logs, creating dashboards and alerts for enhanced threat visibility.</li>
+            </ul>
+        </h4>
+
+        <h4>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Projects" target="_blank">
+                ➣ Firewall Configuration and Rule Implementation
+            </a>
+            <span class="project-details">May 2024</span>
+            <ul class="project-description">
+                <li>Configured and managed PfSense firewall, implementing various security rules to control traffic and enhance network protection.</li>
+            </ul>
+        </h4>
+
+        <h4>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/blob/main/Projects/Snort%20Config%20and%20Detection%20Demo%20Link" target="_blank">
+                ➣ Configuring Snort and Creating Detection Rules for Network Traffic and Attack Patterns
+            </a>
+            <span class="project-details">June 2024</span>
+            <ul class="project-description">
+                <li>Configured Snort on Ubuntu to monitor network traffic and developed custom detection rules, utilizing a Kali Linux attacker environment to simulate and analyze attack patterns.</li>
+            </ul>
+        </h4>
+
+        <h4>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/blob/main/Projects/Red%20Team%20Report.pdf" target="_blank">
+                ➣ Developing Red Team Reports
+            </a>
+            <span class="project-details">December 2023</span>
+            <ul class="project-description">
+                <li>Performed red team assessment on Windows systems using Kali Linux, utilizing tools like Nmap for information gathering and Metasploit for exploitation, followed by post-exploitation tasks.</li>
+                <li>Provided security recommendations, detailed risk ratings, and mitigation strategies for identified vulnerabilities.</li>
+            </ul>
+        </h4>
+
+        <h4>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Projects" target="_blank">
+                ➣ Cybersecurity Awareness Training Delivery
+            </a>
+            <span class="project-details">July 2022</span>
+            <ul class="project-description">
+                <li>Delivered training on social engineering attacks, educating students on recognizing tactics like phishing, pretexting, and baiting to prevent security breaches.</li>
+            </ul>
+        </h4>
+
+    </div>
+</section>
+
+
+
+
+                <div class="work__container bd-grid">
+    <div class="certificate-1">
+        <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Certificates" target="_blank" class="work__img">
+            <img src="assets/img/work1.png" alt=""> 
+        </a>
+        <span>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Certificates" target="_blank"><h4>ISC2 Certified in Cybersecurity</h4>
+            </a>
+        </span>
+    </div>
+         <div class="certificate-1.2">
+        <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Certificates" target="_blank" class="work__img">
+            <img src="assets/img/work 1.2.jpg" alt=""> 
+        </a>
+        <span>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Certificates" target="_blank"><h4>Cisco Ethical Hacker</h4>
+            </a>
+        </span>
+    </div>
+
+    <div class="certificate-2">
+        <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Certificates" target="_blank" class="work__img">
+            <img src="assets/img/work2.png" alt="">
+        </a>
+        <span>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Certificates" target="_blank">
+                <h4>Blue Team Junior Analyst</h4>
+            </a>
+        </span>
+    </div>
+
+    <div class="certificate-3">
+        <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Certificates" target="_blank" class="work__img">
+            <img src="assets/img/work3.png" alt="">
+        </a>
+        <span>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Certificates" target="_blank">
+                <h4>Junior Cybersecurity Analyst Career Path</h4>
+            </a>
+        </span>
+    </div>
+
+    <div class="certificate-4">
+        <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Certificates" target="_blank" class="work__img">
+            <img src="assets/img/work4.jpg" alt="">
+        </a>
+        <span>
+            <a href="https://github.com/KripeshAcharya/Projects-Certifications/tree/main/Certificates" target="_blank">
+                <h4>NIST Risk Management Framework</h4>
+            </a>
+        </span>
+    </div>
+</div>
+
+           
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Contact</p>
+            <div class="footer__social">
+                <a> Email: kacharya@mercy.edu</a><br></br>
+                 <a> Phone: +1 475-321-9547 </a><br></br>
+                <a href="https://www.linkedin.com/in/kripeshacharya/" target="_blank" </a><br></br>
+            
+            </div>
+            <p class="footer__copy">&#169;All rights reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
